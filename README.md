@@ -7,6 +7,8 @@
 
 ## Basic Usage and Description
 
+The german version is based upon the translated latin text by Marcus Tullius Cicero
+
 * Function getContent:
 
 Call of getContent will return a 'Lorem Ipsum' text in the selected format 'html', 'plain' or 'txt'. default value is 'html'
