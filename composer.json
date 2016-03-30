@@ -1,15 +1,8 @@
 {
     "name": "filsecker/lorem-ipsum",
-    "type": "library",
-    "description": "Lorem ipsum generator.",
-    "homepage": "https://github.com/Filsecker/LoremIpsum",
+    "description": "Lorem ipsum generator with german language option.",
     "license": "MIT",
-    "authors": [
-        {
-            "name": "Thomas Filsecker",
-            "email": "tom.filsecker@gmail.com"
-        }
-    ],
+
     "minimum-stability": "dev",
     "require": {
         "php": ">=5.3.9"
