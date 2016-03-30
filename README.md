@@ -14,12 +14,13 @@ Format 'plain' is without parahraphs. 'txt' means intend paragraphs and line bre
 
 
 Parameters:
-* $numbOfWords .. number of words of returned text.
+* $wordsPerParagraph .. used when you generate a loreipsum-text with a specified word count. maximum value, exact paragraph words count varies.
 * $format .. see description before ( 'html', 'plain' or 'txt' )
 * $loremipsum .. boolean, if set to true paragraphes will begin with 'Lorem Ipsum'
+* $language .. available languages are 'latin' and 'german'
 
 
-    $generator = new LoremIpsumGenerator();
+    $generator = new LoremIpsumGenerator($wordsPerParagraph=100,$language='german');
     $numbOfWords=1000; $format = 'html'; $loremipsum = true;
 
     echo $generator->getContent($numbOfWords, $format, $loremipsum);
@@ -30,6 +31,10 @@ Parameters:
 allowed formats are 'array' for a php array as return value and 'html' and 'txt'.
 
 example: $generator->getParagraphs(3,'html',true ) ;
+
+you can also adjust for paragraph length using two parameters (showing default values:
+
+getParagraphs($nrOfParagraphs=1,$format='array',$loremipsum=true, $paragraphMean = 5, $paragraphStDev = 2)
 
 
 ## Live URL
