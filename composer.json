@@ -1,6 +1,8 @@
 {
     "name": "filsecker/lorem-ipsum",
+    "type": "library",
     "description": "Lorem ipsum generator.",
+    "homepage": "https://github.com/Filsecker/LoremIpsum",
     "license": "MIT",
     "authors": [
         {

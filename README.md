@@ -34,7 +34,7 @@ allowed formats are 'array' for a php array as return value and 'html' and 'txt'
 
 example: $generator->getParagraphs(3,'html',true ) ;
 
-you can also adjust for paragraph length using two parameters (showing default values:
+you can also adjust for paragraph length using two parameters for mean and standard deviation of the number of sentences(showing default values:)
 
 getParagraphs($nrOfParagraphs=1,$format='array',$loremipsum=true, $paragraphMean = 5, $paragraphStDev = 2)
 
