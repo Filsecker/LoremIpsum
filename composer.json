@@ -1,0 +1,18 @@
+{
+    "name": "filsecker/lorem-ipsum",
+    "description": "Lorem ipsum generator.",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Thomas Filsecker",
+            "email": "tom.filsecker@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "php": ">=5.3.9"
+    },
+
+    "autoload": {
+        "psr-4": { "Filsecker\\LoremIpsum\\": "lib/" }
+    }
