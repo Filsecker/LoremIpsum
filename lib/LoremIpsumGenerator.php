@@ -4,6 +4,7 @@
 Original Source:  https://github.com/geecu/LoremIpsum
 This Source: https://github.com/Filsecker/LoremIpsum
 */
+namespace Filsecker\LoremIpsum;
 
 class LoremIpsumGenerator
 {
