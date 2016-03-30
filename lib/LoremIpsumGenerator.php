@@ -1,10 +1,9 @@
 <?php
-
-/* Filsecker, 2016: Below you can find the copyrigth notice of the sourcecode I forked from
-Original Source:  https://github.com/geecu/LoremIpsum
-This Source: https://github.com/Filsecker/LoremIpsum
-*/
 namespace Filsecker\LoremIpsum;
+/* Filsecker, 2016: Below you can find the copyrigth notice of the sourcecode I forked from
+* Original Source:  https://github.com/geecu/LoremIpsum
+* This Source: https://github.com/Filsecker/LoremIpsum
+*/
 
 class LoremIpsumGenerator
 {

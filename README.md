@@ -4,6 +4,11 @@
 
 * Playing around with php-packages and use with github for laravel+compose
 * Improved random number generator for word selection, ca. three times faster and better randomness using mt_rand function
+* Added German language text.
+
+# install using composer:
+
+composer require filsecker/lorem-ipsum
 
 ## Basic Usage and Description
 
@@ -19,10 +24,10 @@ Parameters:
 * $wordsPerParagraph .. used when you generate a loreipsum-text with a specified word count. maximum value, exact paragraph words count varies.
 * $format .. see description before ( 'html', 'plain' or 'txt' )
 * $loremipsum .. boolean, if set to true paragraphes will begin with 'Lorem Ipsum'
-* $language .. available languages are 'latin' and 'german'
+* $language .. available languages are 'latin' and 'german', default parameter value is 'latin'
 
 
-    $generator = new LoremIpsumGenerator($wordsPerParagraph=100,$language='german');
+    $generator = new Filsecker\LoremIpsum\LoremIpsumGenerator($wordsPerParagraph=100,$language='latin');
     $numbOfWords=1000; $format = 'html'; $loremipsum = true;
 
     echo $generator->getContent($numbOfWords, $format, $loremipsum);
