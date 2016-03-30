@@ -18,3 +18,4 @@
     "autoload": {
         "psr-4": { "Filsecker\\LoremIpsum\\": "lib/" }
     }
+}
